@@ -1,0 +1,13 @@
+--
+-- File generated with SQLiteStudio v3.4.4 on Wed Oct 9 14:46:25 2024
+--
+-- Text encoding used: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Table: tasks
+CREATE TABLE IF NOT EXISTS tasks (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, description TEXT);
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
